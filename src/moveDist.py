@@ -3,15 +3,10 @@ import re
 import shutil
 
 
-# 查找版本号最新的目录，版本号命名方式为`v%d.%d.%d`，例如 v1.0.0
+
 def moveDist():
     dirs = [d for d in os.listdir(".") if os.path.isdir(d)]
-    version_dirs = [d for d in dirs if re.match(r"^v\d+\.\d+\.\d+$", d)]
-    version_dirs.sort(key=lambda x: list(map(int, re.findall(r"\d+", x))))
-    if not version_dirs:
-        print("未找到版本目录 (vX.X.X)")
-        exit(1)
-    latest_version_dir = version_dirs[-1]
+    latest_version_dir = 'utools'
     return latest_version_dir
 
 

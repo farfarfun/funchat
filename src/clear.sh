@@ -12,9 +12,9 @@ rm -rf backend/public
 rm -rf backend/node_modules
 rm -rf backend/public
 
-rm -rf v1.0.1/fast_window
-rm -rf v1.0.1/window
-rm -rf v1.0.1/main
+rm -rf utools/fast_window
+rm -rf utools/window
+rm -rf utools/main
 
 
 

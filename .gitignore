@@ -19,9 +19,9 @@ lerna-debug.log*
 /src/backend/node_modules
 /src/backend/public
 
-/src/v2.0.0/main
-/src/v2.0.0/window
-/src/v2.0.0/fast_window
+/src/utools/main
+/src/utools/window
+/src/utools/fast_window
 .DS_Store
 dist
 dist-ssr
